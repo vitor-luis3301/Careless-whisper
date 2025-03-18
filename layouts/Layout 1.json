@@ -886,21 +886,36 @@
 					}
 				},
 				{
-					"type": "travis_spritesheet",
+					"type": "Sprite",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Default",
+						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 7,
-					"sid": 201160289043571,
+					"sid": 970568146404987,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 550,
+								"acceleration": 3000,
+								"deceleration": 1500,
+								"jump-strength": 850,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": true,
+								"jump-sustain": 0,
+								"default-controls": true,
+								"enabled": true
+							}
+						}
+					},
 					"instanceFolderItem": {
-						"sid": 201160289043571,
+						"sid": 970568146404987,
 						"expanded": true,
 						"folderName": "",
 						"indexInFolder": -1,
@@ -909,10 +924,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 448,
-						"y": 704,
-						"width": 576,
-						"height": 128,
+						"x": 327,
+						"y": 733,
+						"width": 185.71681735356705,
+						"height": 185.71681735356705,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
